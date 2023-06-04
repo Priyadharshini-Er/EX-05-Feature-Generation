@@ -21,6 +21,8 @@ Save the data to the file
 
 # CODE
 ```
+DEVELOPED BY:Priyadharshini P
+REGISTER NO:212222100039
 
 import pandas as pd
 df=pd.read_csv("data.csv")
@@ -136,78 +138,37 @@ df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass'
 df5
 ```
 # OUPUT
-## Data.csv:
-## Initial Dataset:
-![image](https://user-images.githubusercontent.com/119558093/234931783-ab93f4fa-3091-4d32-8288-ec207d658b47.png)
-## Binary Encoding:
-![image](https://user-images.githubusercontent.com/119558093/234931866-e0f56932-ae42-4154-a452-e9cf499e8d85.png)
-![image](https://user-images.githubusercontent.com/119558093/234931905-fbf90c5a-3a95-4424-9778-a4752d3a5c93.png)
+# Dataset-1 (data.csv)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/069d2036-818e-48f8-89a1-f8f90795096d)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/d3383766-38ef-4b34-a542-0a3d3d127c58)
 
-## Encoded Dataset:
-![image](https://user-images.githubusercontent.com/119558093/234932012-2ab62029-f175-4682-8825-8985bc32eb27.png)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/a9281790-02f9-48cd-8880-e1423facdbf2)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/874c4243-04c7-4c71-97be-84afca7262ba)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/53faec9e-2482-4f46-b026-65f09a8f170f)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/9b99e5ae-a26f-4753-8fa4-985d27ec11ba)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/15ac13aa-7c9e-4b41-8a5c-c7e5c6e05adb)
+# Dataset-2 (Encoding data.csv)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/55ac27b3-2cac-45b2-8689-7c34e34ebe62)
 
-## Data Scaling using MinMaxScaler:
-![image](https://user-images.githubusercontent.com/119558093/234932126-3225f770-a482-4c89-b71c-b13a4a7c0ec6.png)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/a98f1686-cb3f-47d5-a188-54f664c83b35)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/1b02c7d3-2ffb-4516-85f3-095503c2f4f9)
 
-## Data Scaling using StandardScaler:
-![image](https://user-images.githubusercontent.com/119558093/234932223-e28a0044-aa4c-4381-8686-79408e32e28b.png)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/37112ad5-abb4-4138-a057-5874962da7ba)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/5355cbb5-8459-4106-af78-48a9630f0077)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/d6acb6e7-6461-40e5-97e5-0342cc078b39)
 
-## Data Scaling using MaxAbsScaler:
-![image](https://user-images.githubusercontent.com/119558093/234932345-b651a8d3-6ec9-4672-bb92-7ff470633af5.png)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/9de10b7f-512b-4f29-a096-ff51a9eedd64)
 
-## Data Scaling using RobustScaler:
-![image](https://user-images.githubusercontent.com/119558093/234935871-ef6cad57-a588-4354-b630-a19c538e4f2e.png)
+# Dataset-3 (titanic_dataset.csv)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/12fcb10a-fc89-487f-a6aa-839a3d5b23c9)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/13f7edc9-5351-499e-a5c7-1d627662ffc9)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/2c8cdf0d-af70-41dc-8683-aa5b21339c10)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/cf9a30ac-ec3d-4673-8bb3-bd4335164e8e)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/c5729500-93d3-49fc-9547-135b6cecfde6)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/dc64b6f4-f078-4bce-ab52-c56d045e2b17)
+![image](https://github.com/Priyadharshini-Er/EX-05-Feature-Generation/assets/119558093/f8c45216-d6bb-4df2-a28e-ac216c95b4f5)
 
 
-## Encoding.csv :
-## Initial Dataset:
-![image](https://user-images.githubusercontent.com/119558093/234935914-448303ba-d247-46cb-b715-065e53f3357f.png)
-
-
-## Binary Encoding:
-![image](https://user-images.githubusercontent.com/119558093/234932819-04527224-3c4d-43c6-836c-f49fbf218f7f.png)
-![image](https://user-images.githubusercontent.com/119558093/234935980-b84b7808-9b42-4444-892a-ebb570b6152a.png)
-
-## Encoded Dataset:
-![image](https://user-images.githubusercontent.com/119558093/234932986-764229a3-9a3b-4151-935a-7a83c2eaa59b.png)
-
-![image](https://user-images.githubusercontent.com/119558093/234933014-378b5e71-c954-4c41-b2b7-e4a968e0b9ca.png)
-## Data Scaling using MinMaxScaler:
-![image](https://user-images.githubusercontent.com/119558093/234933859-62060a46-c4dc-4960-a078-4c6638b253fb.png)
-## Data Scaling using StandardScaler:
-![image](https://user-images.githubusercontent.com/119558093/234933943-f45869b4-6536-4b67-a7b6-216e3959a9d8.png)
-
-## Data Scaling using MaxAbsScaler:
-![image](https://user-images.githubusercontent.com/119558093/234934062-0b9d7e8c-0dfb-44c4-a70f-b5e3fa88ea35.png)
-## Data Scaling using RobustScaler:
-![image](https://user-images.githubusercontent.com/119558093/234934314-1534956f-f84b-4f5c-b9df-c1e6f7bafd42.png)
-
-## Titanic.csv : Initial Dataset:
-![image](https://user-images.githubusercontent.com/119558093/234934403-edc5a493-7bfb-4865-9aa8-5f3bda3f3643.png)
-
-## Data cleaning before encoding:
-![image](https://user-images.githubusercontent.com/119558093/234934575-2f77f738-a39a-4c66-9855-180aed6d2121.png)
-
-![image](https://user-images.githubusercontent.com/119558093/234934519-9d64fb8d-2f3d-4067-8f71-eef89ca0c0f4.png)
-![image](https://user-images.githubusercontent.com/119558093/234934626-84b20e70-7919-4f7b-a3c0-6064469dbdc6.png)
-
-## Cleaned Dataset:
-![image](https://user-images.githubusercontent.com/119558093/234934748-6d693017-ae0d-4fb7-aeeb-2d28ce4295ad.png)
-
-## Binary Encoding:
-![image](https://user-images.githubusercontent.com/119558093/234934827-37707c00-f31a-4789-9a21-3566933c511a.png)
-
-## Encoded Dataset:
-![image](https://user-images.githubusercontent.com/119558093/234934928-acd4b884-555c-4b7f-a72c-6a92ec9e2f85.png)
-
-## Data Scaling using MinMaxScaler:
-![image](https://user-images.githubusercontent.com/119558093/234935010-d166e639-f9fa-4b12-98bc-d8168825ee20.png)
-
-## Data Scaling using StandardScaler:
-![image](https://user-images.githubusercontent.com/119558093/234935096-57529ce7-ae51-4f32-83b6-95713ea04801.png)
-
-## Data Scaling using RobustScaler:
-![image](https://user-images.githubusercontent.com/119558093/234935184-0ffc3fb6-2989-4690-bf26-f23a3deca402.png)
 
 # Result:
 
